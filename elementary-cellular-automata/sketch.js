@@ -1,6 +1,6 @@
 let cells = [];
 let w = 4;
-let rule_value = 149;
+let rule_value = 246;
 let rule_set;
 let y = 0;
 
@@ -17,10 +17,10 @@ function setup() {
 
   let total = width / w;
   for (let i = 0; i < total; i++) {
-    // cells[i] = 0;
-    cells[i] = floor(random(2));
+    cells[i] = 0;
+    // cells[i] = floor(random(2));
   }
-  // cells[floor(total / 2)] = 1;
+  cells[floor(total / 2)] = 1;
   background(255);
 }
 
