@@ -11,13 +11,15 @@ function setup() {
     let p = new Point(x, y);
     qtree.insert(p);
   }
+}
 
+function draw() {
   background(0);
   qtree.show();
 
   stroke(0, 255, 0);
   rectMode(CENTER);
-  let range = new Rectangle(random(width), random(height), 100, 100);
+  let range = new Rectangle(mouseX, mouseY, 25, 25);
 
   if (mouseX < width && mouseY < height) {
     rect(range.x, range.y, range.w * 2, range.h * 2);
