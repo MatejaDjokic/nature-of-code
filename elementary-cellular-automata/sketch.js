@@ -8,7 +8,7 @@ let sw = window.innerWidth;
 let sh = window.innerHeight;
 
 function setup() {
-  createCanvas(sw, sh);
+  createCanvas(window.innerWidth - 1, window.innerHeight - 1);
 
   rule_set = rule_value.toString(2);
   while (rule_set.length < 8) {
