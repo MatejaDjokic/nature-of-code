@@ -2,7 +2,7 @@ let xoff = 0;
 let step = 0.01;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(window.innerWidth, window.innerHeight);
 }
 
 function draw() {
@@ -19,8 +19,8 @@ function draw() {
 
   noStroke();
   fill(0, 255, 0);
-  ellipse(x, 200, 24, 24);
+  ellipse(x, height / 2, 24, 24);
 
   fill(255, 0, 0);
-  ellipse(200, y, 24, 24);
+  ellipse(width / 2, y, 24, 24);
 }
