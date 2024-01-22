@@ -10,11 +10,11 @@ function setup() {
 
   let x = width / 2;
   let y = height / 2;
-  let radius = 150;
-  let xstep = 100;
+  let radius = 250;
+  let xstep = 1;
   let ystep = 0.005;
   let zstep = 0.003;
-  let radius_move = 0.15;
+  let radius_move = 0.05;
   blobby = new Blobby(x, y, radius, xstep, ystep, zstep, radius_move);
 }
 

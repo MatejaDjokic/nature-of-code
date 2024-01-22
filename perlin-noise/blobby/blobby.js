@@ -45,7 +45,7 @@ class Blobby {
       xoff += this.xstep;
     }
     vertex(fx, fy);
-    endShape();
+    endShape(CLOSE);
 
     this.yoff += this.ystep;
     this.zoff += this.zstep;
