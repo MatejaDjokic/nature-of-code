@@ -1,7 +1,7 @@
 let particles = [];
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(window.innerWidth, window.innerHeight);
 
   for (let i = 0; i < 5000; i++) {
     let rnd_w = random(width);
