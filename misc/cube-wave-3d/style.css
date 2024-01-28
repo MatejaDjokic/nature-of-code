@@ -1,0 +1,13 @@
+html,
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+    left: 25%;
+}
