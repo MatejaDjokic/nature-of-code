@@ -4,8 +4,7 @@ let stepSize = 5;
 let numSteps = 1;
 let state = 0;
 let turnCounter = 0;
-let px,
-  py = 0;
+let px, py = 0;
 let totalSteps = 0;
 
 function setup() {

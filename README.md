@@ -1,14 +1,8 @@
-# Nature of Code Projects
+# Nature of Code
 
-### 1. Ai
-#### - Projects focused on artificial inteligence, machine learning and neural networks
-### 2. Algorithms & Datastructures
-#### -  Projects encompassing all sorts of algorithsm and datastructures or their implementations
-### 3. Games
-#### -  Mini games
-### 4. Misc
-#### -  Anything that doesnt fit in any other category
-### 5. Perlin Noise
-#### -  Projects related or using perlin noise as the main focus of the project
-### 6. Physics
-#### -  Physics simulations and algorithms related to the read worlds
+- Made by ```p4lm4d3v```
+
+# Description
+
+- A collection of small project made with either [Javascript](https://en.wikipedia.org/wiki/JavaScript) and [p5js](https://p5js.org/) library or with [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) in the [Processing IDE](https://processing.org/).
+

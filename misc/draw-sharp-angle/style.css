@@ -6,3 +6,11 @@ html, body {
 canvas {
   display: block;
 }
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

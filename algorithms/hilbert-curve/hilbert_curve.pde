@@ -1,4 +1,4 @@
-int order = 10;
+int order = 6;
 int step = 10;
 float N = (int)pow(2, order);
 float total = N * N;
