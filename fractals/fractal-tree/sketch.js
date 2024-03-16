@@ -14,7 +14,7 @@ function draw() {
 }
 
 function branch(len) {
-    const angle = map(mouseX, 0, width, 0, TWO_PI);
+    const angle = map(mouseX, 0, width, 0, PI);
 
     if (len < 2) return;
     line(0, 0, 0, -len);
